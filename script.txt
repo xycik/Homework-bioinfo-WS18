@@ -1,0 +1,6 @@
+Rosalind first question about DNA string:
+To transform row into columns: sed -e 's/ */\n/g' rosalind_dna > rosalind_text 
+|sort rosalind_text | uniq -c
+
+Rosalind second question about RNA:
+to transform 'T's into 'U's : sed 's/T/U/g' filename.txt
